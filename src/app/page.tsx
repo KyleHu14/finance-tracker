@@ -6,7 +6,7 @@ import {
 	TrendingUp,
 } from "lucide-react"
 import Link from "next/link"
-import PageLayout from "./components/PageLayout"
+import PageLayout from "../components/Layouts/PageLayout/PageLayout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -31,7 +31,7 @@ export default function Home() {
 
 					{/* CTA Buttons */}
 					<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-						<Button className="bg-emerald-600 hover:bg-emerald-700 text-lg px-8 py-3">
+						<Button className="text-lg px-8 py-3">
 							Start Tracking Free
 							<ArrowRight className="ml-2 h-5 w-5" />
 						</Button>
